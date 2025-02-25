@@ -1,0 +1,60 @@
+body {
+
+    background: radial-gradient(circle, rgb(243, 199, 216) 0%, rgb(127, 165, 209) 100%);
+    height: 100vh; /* Assicura che il gradiente copra tutta la finestra */
+    margin: 0; /* Rimuove i margini predefiniti */
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
+.mipresento {
+    font-size: 1.5rem;
+}
+
+  table {
+       margin: 4rem auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid rgb(162, 161, 161);
+    padding: 10px;
+    text-align: left;
+    background-color: none;
+}
+th {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+/* Imposta larghezze diverse */
+.title-column {
+    width: 40%; /* Colonna più larga */
+}
+.middle-column {
+    width: 40%; /* Colonna centrale */
+    text-align: center;
+}
+.narrow-column {
+    width: 20%; /* Colonna più stretta */
+    text-align: center;
+}
+.email-icon2 {
+    font-size: 2.5rem;
+}
+
+.nome-counselor {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    text-align: left;
+    margin: 1rem 0;
+}
+
+@media (min-width: 40em) {
+    table {
+        margin: 4rem auto;
+        width: 80%;
+    }
+}

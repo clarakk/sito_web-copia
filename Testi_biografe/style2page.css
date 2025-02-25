@@ -1,0 +1,145 @@
+body {
+    
+  background-image: radial-gradient( #e4f5fe 0, #cde5f2 50%, #c0e1f3 100%);
+  font-family: Arial, sans-serif;
+  color: var(--clr-neutral-900);
+  text-align: center;
+}
+
+.scheda {
+  padding:   0 0 2.5rem 0;
+}
+
+.testo_pagina2 {
+    width: 100%;
+  
+}
+
+.content {
+    padding: 1.5rem;
+  z-index: 1;
+}
+.title-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.mipresento {
+    font-family: var(--ff-sans);
+    font-size: var(--fs-400);
+    color: rgb(29, 29, 29);
+    font-weight: var(--fw-500);
+    text-align: left;    
+    line-height: 1.5;
+  }
+
+  h1 {
+    padding: 2rem;
+    color: rgb(1, 1, 18);
+}
+
+ ul {
+   text-align: left;
+ }
+
+ .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem auto;
+  flex-basis: 100%;
+  flex: 1;
+  
+}
+
+.email {
+  font-weight: var(--fw-700);
+  font-size: var(--fs-500);
+  color: var(--clr-neutral-500);
+  text-decoration: none;
+  text-align: center;
+  /* margin-right: 1rem; */
+}
+.scrivimi {
+  font-family: var(--ff-sans);
+    font-size: var(--fs-300);
+    color: rgb(29, 29, 29);
+    font-weight: var(--fw-500);
+    text-align: left;
+    
+    }
+
+    .scrivimi p {
+      text-align: left;
+      padding-left: 1rem;
+    }
+
+a {
+  margin: 0;
+}
+
+a:hover,
+a:focus {
+  color: #4f75b8;
+  cursor: pointer;
+}
+
+.email-icon {
+  font-size: 3rem;
+  padding-right: 0.5rem;
+}
+
+.title-home-biografa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 40em) {
+
+  .content {      
+    width: 100%;
+     padding: 4rem 10rem;
+     z-index: 1;
+   }
+
+    h1 {
+        padding: 5rem;
+     
+    }
+    .mipresento {
+         text-align: justify;      
+    }
+    .title-home-biografa {
+      flex-direction: row;
+    }
+      .email-icon {
+        font-size: 6rem;
+      }
+
+      .contacts {
+        font-family: var(--ff-sans);
+        font-size: var(--fs-400);
+        color: rgb(29, 29, 29);
+        font-weight: var(--fw-500);
+        width: 80%;
+        margin-top: 5rem;
+        padding: 5rem auto;
+      }
+
+        .scrivimi {
+          font-family: var(--ff-sans);
+            font-size: var(--fs-400);
+            color: rgb(29, 29, 29);
+            font-weight: var(--fw-500);
+            text-align: left;
+            padding: 1rem;
+            }
+
+
+        }
+
