@@ -82,32 +82,9 @@ function openMenu() {
 function closeMenu() {
   menuToggle.setAttribute('aria-expanded', "false");
   siteNavigation.setAttribute('data-state', "closing");
-  titleHidden.style.opacity = '0';
-subtitleHidden.style.opacity = '0';
-btnPresentazione.style.opacity = '0';
-
-titleHidden.style.transform = 'translateY(-20px)';
-subtitleHidden.style.transform = 'translateY(-20px)';
-btnPresentazione.style.transform = 'translateY(-20px)';
-
-titleHidden.style.display = 'block';
-subtitleHidden.style.display = 'block';
-btnPresentazione.style.display = 'block';
-
-setTimeout(() => {
-  titleHidden.style.transition = 'opacity 1s ease, transform 1s ease';
-  subtitleHidden.style.transition = 'opacity 1s ease 0.5s, transform 1s ease 0.5s';
-  btnPresentazione.style.transition = 'opacity 1s ease 1s, transform 1s ease 1s';
-
-  titleHidden.style.opacity = '1';
-  subtitleHidden.style.opacity = '1';
-  btnPresentazione.style.opacity = '1';
-
-  titleHidden.style.transform = 'translateY(0)';
-  subtitleHidden.style.transform = 'translateY(0)';
-  btnPresentazione.style.transform = 'translateY(0)';
-}, 100);
-
+  titleHidden.style.display = 'block';
+  subtitleHidden.style.display = 'block';
+  btnPresentazione.style.display = 'block';
   
 
   siteNavigation.addEventListener('animationend', () => {
