@@ -134,7 +134,7 @@ a:focus {
   font-size: var(--fs-500);
 }
 .section-one {
-  background-image: url(/img/girasole_wp.jpeg);
+  background-image: url("img/girasole_wp.jpeg");
   background-size: cover;
   background-position: 50% 50%;
   height: 700px;
@@ -436,7 +436,7 @@ section {
 /* components */
 
 .section-one {
-  background-image: url(/img/girasole_wp.jpeg);
+  background-image: url("img/girasole_wp.jpeg");
   background-size: cover;
   background-position: 50% 50%;
   height: 700px;
